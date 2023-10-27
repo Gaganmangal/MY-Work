@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALARM CLOCK</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="project.css">
+</head>
+
+<body>
+    <h1>SAT ALARM</h1>
+    <div class="Contanr">
+        <div id="clock"></div>
+        <input type="datetime-local" name="alarmtime" onchange="setAlarmTime(this.value)">
+        <div class="button">
+            <button class="set" onclick="setAlarm()">set-alarm</button>
+            <button class="clear">clear-alarm</button>
+        </div>
+        <script src="project.js"></script>
+    </div>
+</body>
+
+</html>
